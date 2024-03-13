@@ -1,0 +1,201 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+    
+}
+
+.profileImg{
+    height: 20px;
+    border-radius: 50px;
+}
+
+.site{
+    display: flex;
+    justify-content: center;
+    align-items:  center;
+    position: relative;
+    flex-direction: column;
+}
+
+.card{
+    margin: 20px 0px;
+    border: 1px solid #F9F9F9;
+    box-shadow: 0px 0px 5px 1px #b1b1b1;
+    max-width: 300px;
+    border-radius: 4px;
+    position: relative;
+}
+.author{
+    position: relative;
+    min-height: 30px;
+    min-width: 300px;
+    display: flex;
+    align-items: center;
+    /* background-color: blue; */
+    justify-content: space-between;
+    row-gap: px;
+
+}
+
+.subAuthor{
+    font-size: 8px;
+    font-weight: bold;
+    padding: 0px 10px;
+    display: flex;
+    align-items: center;
+    gap: 0px 10px;
+
+}
+
+
+.options{
+    position: relative;
+}
+
+.ellipsisAuthor{
+    padding: 0px 10px;
+    opacity: 0.6;
+    font-size: 10px;
+    margin-bottom: 200px;
+    position: relative;
+}
+
+
+.ellipsisLike{
+    padding: 0px 10px;
+    max-height: 10px;
+    max-width: 10px;
+    opacity: 0.6;
+}
+
+.postImg{
+    display: block;
+    max-width: 300px;
+}
+
+
+.like{
+    min-height: 28px;
+    align-items: center;
+    display: flex;
+    font-size: 14px;
+}
+
+.leftLike{
+    width: 33.3%;
+    display: flex;
+    padding: 0px 10px;
+    gap: 0px 10px ;
+    opacity: 0.8;
+
+}
+.centerLike{
+    height: 30px;
+    width: 33.3%;
+    display: flex;
+    padding: 0px 0px ;
+    opacity: 0.6;
+    justify-content: center;
+    align-items: flex-start ;
+    
+
+}
+.rightLike{
+    width: 33.3%;
+    justify-content: flex-end;
+    padding: 0px 5px;
+    display: flex;
+    gap: 5px 10px;
+    opacity: 0.;
+    
+
+}
+
+.likedBy{
+    max-height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-bottom: 10px;
+    
+}
+
+.secondLikedBy{
+    z-index: -1;
+    right: 5%;
+    position: relative;
+}
+
+.likedBy > img{
+    margin-left: 8px;
+    height: 12px;
+    display: inline-block;
+    border-radius: 100%;
+    border: 2px solid  rgba(255, 255, 255, 0.8);
+}
+
+.likedBy > p{
+    font-size: 8px;
+    right: 4%;
+    position: relative;
+}
+
+.description{
+    font-size: 8px;
+    margin: 8px 10px;
+
+    
+}
+
+
+.description  span{
+    color: grey ;
+    opacity: 0.8;
+}
+
+.comments p,address{
+    font-size: 8px;
+    margin: 0px 10px 6px 10px;
+    opacity: 0.8;
+    color: grey;
+}
+
+address{
+    font-size: 6px;
+}
+
+form{
+    width: 300px;
+    display: flex;
+    align-items: center;
+    border-top: 1px solid rgb(238, 236, 236);
+    
+}
+input{
+    box-sizing: border-box;
+    padding: 10px 0px;
+    width: 300px;
+    font-size: 8px;
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+}
+
+.smile{
+    margin-left: 10px;
+    width: 9%;
+    opacity: 0.6;
+    font-size: 14px;
+}
+
+form > p {
+    font-size: 8px;
+    margin: 0px 10px 6px 10px;
+    color: #96d3e6;
+}
+
+input:focus {
+    outline-width: 0;
+}
